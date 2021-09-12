@@ -1,0 +1,42 @@
+.about-area{
+    padding-top: 100px;
+    background: #F6F9FE;
+    .about-button{
+        border-radius: 100px;
+        color: #106EEA;
+    }
+    .about-title{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .about-content{
+        .about-content-image{
+            padding-bottom: 20px;
+        }
+        .about-content-main-title{
+            font-size: 25px;
+        }
+        .about-content-item{
+            display: flex;
+            flex-direction: column;
+            .about-content-item-main{
+                display: flex;
+                align-items: center;
+                .about-content-item-main-icon{
+                    border: 2px solid #EAF2FD;
+                    color: #106EEA;
+                    font-size: 30px;
+                    padding: 15px;
+                    margin-left: 10px;
+                    border-radius: 50px;
+                }
+                .about-content-item-main-title{
+                    margin-left: 20px;
+                }
+            }
+            .about-content-item-para{
+                padding-left: 100px;
+            }
+        }
+    }
+}

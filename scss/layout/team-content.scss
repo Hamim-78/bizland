@@ -1,0 +1,23 @@
+.team-content{
+    margin-top: 80px;
+    .team-content-main{
+        .team-content-button{
+            color: #106EEA;
+            text-transform: uppercase;
+            border-radius: 100px;
+        }
+        .team-content-main-title{
+            color: #444444;
+            .team-content-main-title-side{
+                color: #106EEA;
+            }
+        }
+        .team-content-main-para{
+            font-size: 20px;
+            color: #727274;
+        }
+    }
+    .card{
+        margin-top: 20px;
+    }
+}
